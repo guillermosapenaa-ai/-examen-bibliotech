@@ -1,0 +1,10 @@
+a) El símbolo - significa que el atributo es privado, es decir, solo se puede
+   acceder a él desde dentro de la propia clase. El símbolo + significa que el
+   método es público, es decir, se puede usar desde fuera de la clase.
+
+b) El tipo de dato de "disponible" es bool (booleano). Solo puede tener dos
+   valores: true (verdadero) o false (falso).
+
+c) El método ToString() sirve para devolver una representación en texto del
+   objeto. Se usa, por ejemplo, cuando hacemos Console.WriteLine(libro), ya que
+   C# llama a ToString() automáticamente para convertir el objeto en un string.
