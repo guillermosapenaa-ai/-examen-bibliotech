@@ -49,3 +49,17 @@ Console.WriteLine("Fichero guardado correctamente.");
 Console.WriteLine(Directory.GetCurrentDirectory());
 
 
+// Ejercicio 3
+GestorBD gestor = new GestorBD();
+
+// Insertar un libro
+gestor.Insertar(new Libro("1984", "George Orwell", 1949, true));
+Console.WriteLine("Libro insertado correctamente.");
+
+// Leer todos
+List<Libro> librosDB = gestor.ObtenerTodos();
+Console.WriteLine("--- Libros en la base de datos ---");
+foreach (Libro l in librosDB)
+{
+	Console.WriteLine(l.ToString());
+}
